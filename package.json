@@ -1,0 +1,16 @@
+{
+  "name": "github-webhook-publish",
+  "version": "0.1.0",
+  "description": "A script which publishes a webapp when a webhook is triggered",
+  "main": "index.js",
+  "scripts": {
+    "start": "node $NODE_DEBUG_OPTION index.js"
+  },
+  "dependencies": {
+    "follow-redirects": "^1.2.6",
+    "github-webhook-handler": "~0.7.0",
+    "tar": "2.2.1"
+  },
+  "author": "Maximilian Ammann",
+  "license": "MIT"
+}
