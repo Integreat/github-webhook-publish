@@ -6,9 +6,14 @@
   "scripts": {
     "start": "node $NODE_DEBUG_OPTION index.js"
   },
+  "engines": {
+    "npm": "~8.0.0"
+  },
   "dependencies": {
+    "commander": "^2.12.2",
     "follow-redirects": "^1.2.6",
     "github-webhook-handler": "~0.7.0",
+    "rimraf": "^2.6.2",
     "tar": "2.2.1"
   },
   "author": "Maximilian Ammann",
